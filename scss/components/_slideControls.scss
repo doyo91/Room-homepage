@@ -1,0 +1,26 @@
+.slideControls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  &__btn {
+    background-color: $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.5;
+    height: 100%;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba($color: $black, $alpha: 0.8);
+    }
+
+    img {
+      width: 10px;
+    }
+  }
+}

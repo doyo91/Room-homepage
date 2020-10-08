@@ -1,0 +1,20 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: $white;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+
+  &__link {
+    padding: 5px 5px;
+    margin-right: 1rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
